@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Brenda Iveth - Diseñadora Gráfica. Identidad Visual, Branding, Dirección de Arte y Diseño Editorial.">
+    <meta name="theme-color" content="#f5f0eb">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Brenda Iveth - Diseñadora Gráfica">
+    <meta property="og:description" content="Portafolio profesional de diseño gráfico, branding y dirección creativa.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://brenda-iveth.com">
+    
+    <title>Brenda Iveth — Diseñadora Gráfica</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' font-family='serif'>B</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <a href="#inicio">Brenda Iveth</a>
+            </div>
+            <div class="navbar-menu" id="navbarMenu">
+                <a href="#inicio" class="nav-link">Inicio</a>
+                <a href="#trabajos" class="nav-link">Trabajos</a>
+                <a href="#servicios" class="nav-link">Servicios</a>
+                <a href="#sobre" class="nav-link">Sobre mí</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+            </div>
+            <a href="#contacto" class="btn btn-primary navbar-btn">Hablemos ↗</a>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Brenda Iveth</h1>
+                <p class="hero-subtitle">Ideas que se ven.</p>
+                <p class="hero-description">Diseñadora gráfica especializada en identidad visual, branding y dirección creativa.</p>
+                <div class="hero-buttons">
+                    <a href="#trabajos" class="btn btn-primary">Explorar portafolio ↗</a>
+                    <a href="#contacto" class="btn btn-secondary">Trabajemos juntos</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="geometric-shape shape-1"></div>
+                <div class="geometric-shape shape-2"></div>
+                <div class="geometric-shape shape-3"></div>
+                <div class="floating-badge badge-1">DISEÑO</div>
+                <div class="floating-badge badge-2">CREATIVO</div>
+                <div class="floating-badge badge-3">VISUAL</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marquee Section -->
+    <section class="marquee-section">
+        <div class="marquee">
+            <div class="marquee-content">
+                <span>BRANDING</span>
+                <span>DIRECCIÓN DE ARTE</span>
+                <span>SOCIAL MEDIA</span>
+                <span>EDITORIAL</span>
+                <span>IDENTIDAD VISUAL</span>
+                <span>CREATIVIDAD</span>
+                <span>BRANDING</span>
+                <span>DIRECCIÓN DE ARTE</span>
+                <span>SOCIAL MEDIA</span>
+                <span>EDITORIAL</span>
+                <span>IDENTIDAD VISUAL</span>
+                <span>CREATIVIDAD</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="trabajos">
+        <div class="section-header">
+            <h2 class="section-title">Trabajos recientes.</h2>
+        </div>
+        <div class="portfolio-grid" id="portfolioGrid">
+            <!-- Proyectos se cargan dinámicamente desde JavaScript -->
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose" aria-label="Cerrar modal">
+                <span></span>
+                <span></span>
+            </button>
+            <div class="modal-body" id="modalBody">
+                <!-- Contenido del proyecto se carga dinámicamente -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <section class="services" id="servicios">
+        <div class="section-header">
+            <h2 class="section-title">Diseño con intención.</h2>
+        </div>
+        <div class="services-list">
+            <div class="service-item">
+                <span class="service-number">01</span>
+                <h3 class="service-title">Identidad Visual</h3>
+                <p class="service-description">Desarrollo de identidades visuales coherentes y memorables que reflejan la esencia de tu marca.</p>
+            </div>
+            <div class="service-item">
+                <span class="service-number">02</span>
+                <h3 class="service-title">Contenido para Redes</h3>
+                <p class="service-description">Diseño de contenido visual estratégico para Instagram, TikTok y otras plataformas digitales.</p>
+            </div>
+            <div class="service-item">
+                <span class="service-number">03</span>
+                <h3 class="service-title">Diseño Editorial</h3>
+                <p class="service-description">Diseño de libros, revistas, catálogos y materiales impresos con una estética editorial refinada.</p>
+            </div>
+            <div class="service-item">
+                <span class="service-number">04</span>
+                <h3 class="service-title">Dirección Creativa</h3>
+                <p class="service-description">Asesoramiento creativo y dirección visual para campañas publicitarias y proyectos especiales.</p>
+            </div>
+            <div class="service-item">
+                <span class="service-number">05</span>
+                <h3 class="service-title">Diseño Publicitario</h3>
+                <p class="service-description">Creación de piezas publicitarias impactantes para medios digitales e impresos.</p>
+            </div>
+            <div class="service-item">
+                <span class="service-number">06</span>
+                <h3 class="service-title">Ilustración</h3>
+                <p class="service-description">Ilustraciones personalizadas que aportan un toque único a tu proyecto creativo.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="sobre">
+        <div class="about-content">
+            <div class="about-text">
+                <h2 class="section-title">Diseñar es contar sin palabras.</h2>
+                <p class="about-bio">[Biografía de Brenda Iveth - Reemplazar con información real]</p>
+                <div class="about-specs">
+                    <div class="spec-item">
+                        <h4>Especialidades</h4>
+                        <ul>
+                            <li>Identidad Visual</li>
+                            <li>Branding</li>
+                            <li>Dirección de Arte</li>
+                            <li>Diseño Editorial</li>
+                        </ul>
+                    </div>
+                    <div class="spec-item">
+                        <h4>Herramientas</h4>
+                        <ul>
+                            <li>Adobe Creative Suite</li>
+                            <li>Figma</li>
+                            <li>Illustrator</li>
+                            <li>Photoshop</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="https://via.placeholder.com/400x500?text=[Fotografía+de+Brenda]" alt="Fotografía de Brenda Iveth">
+            </div>
+        </div>
+    </section>
+
+    <!-- Creative Process Section -->
+    <section class="process" id="proceso">
+        <div class="section-header">
+            <h2 class="section-title">Mi proceso creativo.</h2>
+        </div>
+        <div class="process-timeline">
+            <div class="process-step">
+                <span class="process-number">01</span>
+                <h3>Descubrimiento</h3>
+                <p>Entender tu visión, objetivos y audiencia para crear una estrategia visual efectiva.</p>
+            </div>
+            <div class="process-step">
+                <span class="process-number">02</span>
+                <h3>Concepto</h3>
+                <p>Desarrollo de conceptos visuales únicos y pertinentes a tu proyecto.</p>
+            </div>
+            <div class="process-step">
+                <span class="process-number">03</span>
+                <h3>Diseño</h3>
+                <p>Creación de diseños profesionales utilizando las mejores herramientas.</p>
+            </div>
+            <div class="process-step">
+                <span class="process-number">04</span>
+                <h3>Refinamiento</h3>
+                <p>Ajustes y mejoras basadas en feedback y optimización visual.</p>
+            </div>
+            <div class="process-step">
+                <span class="process-number">05</span>
+                <h3>Entrega</h3>
+                <p>Entrega de archivos finales en todos los formatos necesarios.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="section-header">
+            <h2 class="section-title">Lo que dicen mis clientes.</h2>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <p class="testimonial-text">[Testimonio de cliente próximamente]</p>
+                <div class="testimonial-author">
+                    <img src="https://via.placeholder.com/50x50?text=Cliente" alt="Cliente">
+                    <div>
+                        <h4>[Nombre del cliente]</h4>
+                        <p>[Empresa]</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">[Testimonio de cliente próximamente]</p>
+                <div class="testimonial-author">
+                    <img src="https://via.placeholder.com/50x50?text=Cliente" alt="Cliente">
+                    <div>
+                        <h4>[Nombre del cliente]</h4>
+                        <p>[Empresa]</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">[Testimonio de cliente próximamente]</p>
+                <div class="testimonial-author">
+                    <img src="https://via.placeholder.com/50x50?text=Cliente" alt="Cliente">
+                    <div>
+                        <h4>[Nombre del cliente]</h4>
+                        <p>[Empresa]</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking" id="citas">
+        <div class="booking-content">
+            <h2 class="section-title">¿Creamos algo juntos?</h2>
+            <p class="booking-subtitle">Reserva una cita conmigo para hablar sobre tu proyecto.</p>
+            <div class="booking-grid">
+                <a href="#contacto" class="btn btn-primary btn-large">Solicitar una cita ↗</a>
+                <div class="qr-placeholder">
+                    <p>Escanear para reservar</p>
+                    <img src="https://via.placeholder.com/150x150?text=[Código+QR]" alt="Código QR para reservar cita">
+                    <p class="qr-note">[Reemplazar con código QR cuando esté disponible]</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contacto">
+        <div class="section-header">
+            <h2 class="section-title">Hablemos.</h2>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <a href="mailto:[Email]">[Email]</a>
+                </div>
+                <div class="contact-item">
+                    <h3>WhatsApp</h3>
+                    <a href="https://wa.me/[Número]">[Número de teléfono]</a>
+                </div>
+                <div class="contact-item">
+                    <h3>Redes Sociales</h3>
+                    <div class="social-links">
+                        <a href="https://instagram.com/[Instagram]" target="_blank" rel="noopener noreferrer">Instagram</a>
+                        <a href="https://behance.net/[Behance]" target="_blank" rel="noopener noreferrer">Behance</a>
+                        <a href="https://linkedin.com/in/[LinkedIn]" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Teléfono</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="service">Tipo de Servicio</label>
+                    <select id="service" name="service" required>
+                        <option value="">Selecciona un servicio</option>
+                        <option value="identity">Identidad Visual</option>
+                        <option value="social">Contenido para Redes</option>
+                        <option value="editorial">Diseño Editorial</option>
+                        <option value="creative">Dirección Creativa</option>
+                        <option value="advertising">Diseño Publicitario</option>
+                        <option value="illustration">Ilustración</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="project">Descripción del Proyecto</label>
+                    <textarea id="project" name="project" rows="5" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="budget">Presupuesto Aproximado</label>
+                    <select id="budget" name="budget">
+                        <option value="">Selecciona un rango</option>
+                        <option value="500-1000">$500 - $1,000</option>
+                        <option value="1000-2500">$1,000 - $2,500</option>
+                        <option value="2500-5000">$2,500 - $5,000</option>
+                        <option value="5000+">$5,000+</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary btn-large">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-main">
+                <h3>Brenda Iveth</h3>
+                <p>Diseño gráfico · Dirección creativa</p>
+            </div>
+            <nav class="footer-nav">
+                <a href="#inicio">Inicio</a>
+                <a href="#trabajos">Trabajos</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#sobre">Sobre mí</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            <div class="footer-socials">
+                <a href="https://instagram.com/[Instagram]" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a href="https://behance.net/[Behance]" target="_blank" rel="noopener noreferrer">Behance</a>
+                <a href="https://linkedin.com/in/[LinkedIn]" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Brenda Iveth. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
